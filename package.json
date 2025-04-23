@@ -1,0 +1,16 @@
+{
+  "name": "online-boutique-e2e-tests",
+  "version": "1.0.0",
+  "description": "End-to-end tests for Online Boutique application",
+  "scripts": {
+    "cypress:open": "cypress open",
+    "cypress:run": "cypress run"
+  },
+  "devDependencies": {
+    "cypress": "^12.17.3",
+    "typescript": "^5.1.6"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  }
+} 
