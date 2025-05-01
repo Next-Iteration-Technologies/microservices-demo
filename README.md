@@ -3,6 +3,7 @@
 - Demo app to showcase how AI agentic development works for a brownfield app
 - AI toolset is Cursor and Claude Sonnet 3.7
 - Fork of Google Online Boutique codebase
+- `cursor-demo` branch has the changes
 - Channs created this codebase
 
 #### Features
