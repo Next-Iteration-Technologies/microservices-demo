@@ -1,3 +1,16 @@
+### Purpose
+
+- Demo app to showcase how AI agentic development works for a brownfield app
+- AI toolset is Cursor and Claude Sonnet 3.7
+- Fork of Google Online Boutique codebase
+- Channs created this codebase
+
+#### Features
+- Deployed locally with Docker and kind
+- End to end test in Cypress
+
+---
+
 <p align="center">
 <img src="/src/frontend/static/icons/Hipster_HeroLogoMaroon.svg" width="300" alt="Online Boutique" />
 </p>
