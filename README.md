@@ -7,7 +7,8 @@
 
 #### Features
 - Deployed locally with Docker and kind
-- End to end test in Cypress
+- Generated an end-to-end test in Cypress
+- Suggested next step is an enhancement such as total based discount, product based offers, etc.
 
 ---
 
