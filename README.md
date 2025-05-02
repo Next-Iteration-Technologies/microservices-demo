@@ -20,6 +20,10 @@
   - Run `> skaffold run` (build and deploy)
   - Run `> kubectl port-forward deployment/frontend 8080:8080` (port forwarding for frontend)
   - Go to `localhost:8080` to access frontend
+ 
+### Workaround for Apple Silicon
+- Go to `/src/loadgenerator/Dockerfile`
+- Replace line 15 with `FROM --platform=linux/amd64 python:3.12.2-slim AS base`
 
 ---
 
