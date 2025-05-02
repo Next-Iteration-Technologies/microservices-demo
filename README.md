@@ -1,3 +1,8 @@
+### DO NOT USE
+### ( Check with Chirag if the latest fork has been created. This dose not work on Apple silicon Macs )
+
+---
+
 ### Purpose
 
 - Demo app to showcase how AI agentic development works for a brownfield app
