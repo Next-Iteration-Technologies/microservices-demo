@@ -11,6 +11,16 @@
 - Generated an end-to-end test in Cypress
 - Suggested next step is an enhancement such as total based discount, product based offers, etc.
 
+### Local setup
+- Follow the steps in `development-guide.md`. The simplest local setup is described below
+  - Install `Docker Desktop` from web
+  - Install `kind` with `> brew install kind`
+  - Go to root folder and run `> kind create cluster` (provision)
+  - Install `skaffold` with `> brew install skaffold`
+  - Run `> skaffold run` (build and deploy)
+  - Run `> kubectl port-forward deployment/frontend 8080:8080` (port forwarding for frontend)
+  - Go to `localhost:8080` to access frontend
+
 ---
 
 <p align="center">
